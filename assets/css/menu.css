@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Dosis:wght@300;500;700&family=Oswald&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
