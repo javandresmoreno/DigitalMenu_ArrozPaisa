@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Dosis:wght@300;500;700&family=Oswald&display=swap");
 
+:root {
+  --green-primary: #00683f;
+  --green-secondary: #459c48;
+  --green-soft: #a8cf45;
+  --green-gradient: linear-gradient(180deg, #a8cf45 0%, #177741 100%);
+  --red: rgb(237, 50, 55);
+  --yellow: rgb(255, 242, 18);
+  --black: #444444;
+  --white: #eeeeee;
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -12,4 +23,338 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: baloo;
+  color: var(--green-secondary);
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.menu-content {
+  flex-grow: 1;
+}
+
+/* -------------- HEADER ----------------*/
+
+.headlines {
+  padding: 1rem;
+  background-color: var(--green-primary);
+  color: white;
+}
+
+.header-logo img {
+  height: 90px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo-font img {
+  height: 3.5rem;
+}
+
+.header-logo-facebook {
+  display: none;
+}
+
+.header-menu {
+  background: var(--green-gradient);
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.header-menu img {
+  width: 280px;
+}
+
+.header-text {
+  color: var(--green-primary);
+  font-family: baloo;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/* -------------- SECTION RICE ----------------*/
+
+.rice-title {
+  background-color: var(--red);
+  padding: 0.3rem;
+  text-align: center;
+  color: var(--yellow);
+  font-family: baloo;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 0.5rem;
+}
+
+.rice-description {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+.rice-description p {
+  font-family: Dosis;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--black);
+}
+
+.rice-picture img {
+  height: 150px;
+  margin-right: 1rem;
+}
+
+/* -------------- PRICE CARDS ----------------*/
+
+.price-card-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.price-card-item {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  flex: 1 1 170px;
+}
+
+.price-card-style {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "portion type"
+    "portion price";
+  background-color: var(--green-primary);
+  border-radius: 0.3rem;
+  width: 160px;
+  padding: 0.3rem;
+}
+
+.price-card-portions {
+  grid-area: portion;
+  padding: 0.3rem;
+  align-self: center;
+}
+
+.price-card-type {
+  grid-area: type;
+  font-family: baloo;
+  color: var(--green-soft);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  text-align: center;
+  align-self: center;
+  margin-top: -0.3rem;
+}
+
+.price-card-price {
+  grid-area: price;
+  font-family: Oswald;
+  color: var(--white);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  align-self: center;
+  line-height: 2rem;
+  margin-bottom: 0.1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: -0.3rem;
+}
+
+.beverage {
+  font-family: Oswald;
+  display: grid;
+  place-content: center;
+  margin-left: 1rem;
+}
+
+.social-network-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social-network-icons p {
+  font-family: Dosis;
+  font-size: 1.2rem;
+}
+
+.social-network-icons > a > i {
+  margin-right: 2rem;
+  font-size: 2rem;
+  color: white;
+}
+.social-network-icons > a > i:hover {
+  color: var(--green-soft);
+}
+
+.primary {
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+  background: var(--green-gradient);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 10px 10px 25px -12px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  text-align: center;
+}
+
+.primary a {
+  font-family: baloo;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--white);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.primary i {
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: var(--yellow);
+}
+
+.whatsapp-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25d366;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 10px 10px 25px -12px rgba(0, 0, 0, 0.75);
+  position: fixed;
+  margin-right: 0.5rem;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.whatsapp-button > a > i {
+  font-size: 2rem;
+  color: white;
+}
+
+.delivery-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 1.5rem;
+}
+
+.delivery-card-item {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  flex: 1 1 250px;
+}
+
+.delivery-card-style {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: repeat(3, 1fr) 30px;
+  grid-template-areas:
+    "delivery delivery"
+    "place    phone"
+    "place1   phone1"
+    "price    price";
+  background: var(--green-gradient);
+  border-radius: 5px;
+  border: medium solid var(--yellow);
+}
+
+.delivery-card-title {
+  grid-area: delivery;
+  padding: 0.3rem;
+  text-align: center;
+  font-family: baloo;
+  color: var(--yellow);
+  font-size: 2rem;
+  text-transform: uppercase;
+  align-self: center;
+  background: var(--red);
+  box-shadow: 10px 10px 25px -12px rgba(0, 0, 0, 0.75);
+}
+
+.one {
+  grid-area: place;
+}
+.two {
+  grid-area: phone;
+}
+.three {
+  grid-area: place1;
+}
+.four {
+  grid-area: phone1;
+}
+
+.delivery-card-place {
+  padding: 0.3rem;
+  text-align: center;
+  font-family: baloo;
+  color: var(--white);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  text-align: center;
+  align-self: center;
+  line-height: 1.2rem;
+}
+
+.delivery-card-phone {
+  font-family: baloo;
+  color: var(--white);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  align-self: center;
+  line-height: 2rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.delivery-card-phone > p {
+  font-size: 1.2rem;
+}
+
+.delivery-card-phone > h1 {
+  color: var(--yellow);
+}
+
+.delivery-price {
+  grid-area: price;
+  text-align: center;
+  color: var(--white);
+  font-family: Oswald;
+}
+
+/* ------------- DESKTOP RESPONSIVE -----------*/
+
+@media screen and (min-width: 1024px) {
+  .header-logo-facebook {
+    display: block;
+  }
+  .header-logo-font img {
+    height: 100%;
+  }
+  .primary {
+    width: 45%;
+  }
+  .primary-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0;
+  }
 }
