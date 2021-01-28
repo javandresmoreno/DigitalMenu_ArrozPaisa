@@ -8,6 +8,23 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
     <title>Menú Arroz Paisa!</title>
   </head>
   <body>
@@ -27,7 +44,7 @@
             <article class="logo-text-welcome">
               <h1>¡Bienvenidos!</h1>
             </article>
-            <a href="menu.html" class="primary">
+            <a href="menu.html" class="primary animate-button">
               <img src="./assets/svg/menu_button.svg" alt="Ver Menú" />
             </a>
             <article class="delivery-card-container">
@@ -55,14 +72,33 @@
           </section>
         </div>
       </section>
-      <div class="whatsapp-button">
-        <a
-          href="https://wa.me/573118651922?text=Hola,%20me%20gustaría%20realizar%20un%20pedido."
-          target="_blank"
-        >
+      <a
+        class="wa-icon"
+        href="https://wa.me/573118651922?text=Hola,%20me%20gustaría%20realizar%20un%20pedido."
+        target="_blank"
+      >
+        <div class="whatsapp-button">
           <i class="fa fa-whatsapp"></i>
-        </a>
-      </div>
+
+          <div class="branch-text">
+            <h4 id="circular-text">AUTOSUR</h4>
+          </div>
+        </div>
+      </a>
+      <a
+        class="wa-icon"
+        href="https://wa.me/573167666920?text=Hola,%20me%20gustaría%20realizar%20un%20pedido."
+        target="_blank"
+      >
+        <div class="whatsapp-button b">
+          <div class="branch-text">
+            <h4 id="circular-text-2">SATÉLITE</h4>
+          </div>
+
+          <i class="fa fa-whatsapp"></i>
+        </div>
+      </a>
     </main>
+    <script src="./assets/js/circularText.js"></script>
   </body>
 </html>
