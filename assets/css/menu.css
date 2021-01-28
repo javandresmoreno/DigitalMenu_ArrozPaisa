@@ -234,18 +234,54 @@ h1 {
   align-items: center;
   background-color: #25d366;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   box-shadow: 10px 10px 25px -12px rgba(0, 0, 0, 0.75);
   position: fixed;
   margin-right: 0.5rem;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 5.5rem;
+  right: 0.5rem;
 }
 
-.whatsapp-button > a > i {
+.wa-icon > div > i {
   font-size: 2rem;
   color: white;
+}
+
+.b {
+  bottom: 1rem;
+}
+
+#circular-text span {
+  position: absolute;
+  font-family: "Baloo 2";
+  width: 1rem;
+  height: 2.9rem;
+  font-size: 0.6rem;
+  text-align: center;
+  color: var(--yellow);
+  transform-origin: bottom center;
+  right: 2.1rem;
+  bottom: 1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#circular-text-2 span {
+  position: absolute;
+  font-family: "Baloo 2";
+  width: 0.5rem;
+  height: 2.9rem;
+  font-size: 0.6rem;
+  text-align: center;
+  color: var(--yellow);
+  transform-origin: bottom center;
+  right: 2.2rem;
+  bottom: 1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.branch-text {
+  display: grid;
+  place-items: center;
 }
 
 .delivery-card-container {
@@ -320,7 +356,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   align-self: center;
-  line-height: 2rem;
+  line-height: 1.5rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
