@@ -140,7 +140,7 @@ img {
   grid-area: delivery;
   padding: 0.3rem;
   text-align: center;
-  font-family: baloo;
+  font-family: Baloo;
   color: var(--yellow);
   font-size: 2rem;
   text-transform: uppercase;
@@ -165,7 +165,7 @@ img {
 .delivery-card-place {
   padding: 0.3rem;
   text-align: center;
-  font-family: baloo;
+  font-family: Baloo;
   color: var(--white);
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -175,7 +175,7 @@ img {
 }
 
 .delivery-card-phone {
-  font-family: baloo;
+  font-family: Baloo;
   color: var(--white);
   font-size: 1.8rem;
   text-transform: uppercase;

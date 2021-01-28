@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-  font-family: baloo;
+  font-family: Baloo;
   color: var(--green-secondary);
   text-align: center;
   font-size: 1.8rem;
@@ -80,7 +80,7 @@ h1 {
 
 .header-text {
   color: var(--green-primary);
-  font-family: baloo;
+  font-family: Baloo;
   text-transform: uppercase;
   font-size: 1.8rem;
   text-align: center;
@@ -93,7 +93,7 @@ h1 {
   padding: 0.3rem;
   text-align: center;
   color: var(--yellow);
-  font-family: baloo;
+  font-family: Baloo;
   text-transform: uppercase;
   font-size: 1.8rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -153,7 +153,7 @@ h1 {
 
 .price-card-type {
   grid-area: type;
-  font-family: baloo;
+  font-family: Baloo;
   color: var(--green-soft);
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -215,7 +215,7 @@ h1 {
 }
 
 .primary a {
-  font-family: baloo;
+  font-family: Baloo;
   font-size: 1.5rem;
   text-decoration: none;
   color: var(--white);
@@ -279,7 +279,7 @@ h1 {
   grid-area: delivery;
   padding: 0.3rem;
   text-align: center;
-  font-family: baloo;
+  font-family: Baloo;
   color: var(--yellow);
   font-size: 2rem;
   text-transform: uppercase;
@@ -304,7 +304,7 @@ h1 {
 .delivery-card-place {
   padding: 0.3rem;
   text-align: center;
-  font-family: baloo;
+  font-family: Baloo;
   color: var(--white);
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -314,7 +314,7 @@ h1 {
 }
 
 .delivery-card-phone {
-  font-family: baloo;
+  font-family: Baloo;
   color: var(--white);
   font-size: 1.8rem;
   text-transform: uppercase;
