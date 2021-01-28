@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Dosis:wght@300;500;700&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2+2:wght@700;800&family=Dosis:wght@300;500;700&family=Oswald&display=swap");
 
 :root {
   --green-primary: #00683f;
@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-  font-family: Baloo;
+  font-family: "Baloo+2";
   color: var(--green-secondary);
   text-align: center;
   font-size: 1.8rem;
@@ -80,7 +80,7 @@ h1 {
 
 .header-text {
   color: var(--green-primary);
-  font-family: Baloo;
+  font-family: "Baloo+2";
   text-transform: uppercase;
   font-size: 1.8rem;
   text-align: center;
@@ -93,7 +93,7 @@ h1 {
   padding: 0.3rem;
   text-align: center;
   color: var(--yellow);
-  font-family: Baloo;
+  font-family: "Baloo+2";
   text-transform: uppercase;
   font-size: 1.8rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -107,7 +107,7 @@ h1 {
   padding: 1rem;
 }
 .rice-description p {
-  font-family: Dosis;
+  font-family: "Dosis";
   font-weight: 500;
   font-size: 1.2rem;
   color: var(--black);
@@ -153,7 +153,7 @@ h1 {
 
 .price-card-type {
   grid-area: type;
-  font-family: Baloo;
+  font-family: "Baloo+2";
   color: var(--green-soft);
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -164,7 +164,7 @@ h1 {
 
 .price-card-price {
   grid-area: price;
-  font-family: Oswald;
+  font-family: "Oswald";
   color: var(--white);
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -177,7 +177,7 @@ h1 {
 }
 
 .beverage {
-  font-family: Oswald;
+  font-family: "Oswald";
   display: grid;
   place-content: center;
   margin-left: 1rem;
@@ -190,7 +190,7 @@ h1 {
 }
 
 .social-network-icons p {
-  font-family: Dosis;
+  font-family: "Dosis";
   font-size: 1.2rem;
 }
 
@@ -215,7 +215,7 @@ h1 {
 }
 
 .primary a {
-  font-family: Baloo;
+  font-family: "Baloo+2";
   font-size: 1.5rem;
   text-decoration: none;
   color: var(--white);
@@ -279,7 +279,7 @@ h1 {
   grid-area: delivery;
   padding: 0.3rem;
   text-align: center;
-  font-family: Baloo;
+  font-family: "Baloo+2";
   color: var(--yellow);
   font-size: 2rem;
   text-transform: uppercase;
@@ -304,7 +304,7 @@ h1 {
 .delivery-card-place {
   padding: 0.3rem;
   text-align: center;
-  font-family: Baloo;
+  font-family: "Baloo+2";
   color: var(--white);
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -314,7 +314,7 @@ h1 {
 }
 
 .delivery-card-phone {
-  font-family: Baloo;
+  font-family: "Baloo+2";
   color: var(--white);
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -336,7 +336,7 @@ h1 {
   grid-area: price;
   text-align: center;
   color: var(--white);
-  font-family: Oswald;
+  font-family: "Oswald";
 }
 
 /* ------------- DESKTOP RESPONSIVE -----------*/
