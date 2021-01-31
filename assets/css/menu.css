@@ -113,9 +113,28 @@ h1 {
   color: var(--black);
 }
 
+.rice-description > ul > li {
+  font-family: "Dosis";
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--black);
+}
+
 .rice-picture img {
   height: 150px;
   margin-right: 1rem;
+}
+
+.combos-text {
+  color: var(--green-secondary);
+}
+
+.beverage-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 2rem;
+  margin-right: 0.5rem;
 }
 
 /* -------------- PRICE CARDS ----------------*/
@@ -183,6 +202,21 @@ h1 {
   margin-left: 1rem;
 }
 
+.price-combos-style {
+  display: grid;
+  place-content: center;
+  background-color: var(--green-primary);
+  border-radius: 0.3rem;
+  width: 160px;
+  padding: 0.3rem;
+}
+
+.combo {
+  margin-top: 0;
+}
+
+/* -------------- BUTTONS ----------------*/
+
 .social-network-icons {
   display: flex;
   justify-content: space-evenly;
@@ -201,6 +235,10 @@ h1 {
 }
 .social-network-icons > a > i:hover {
   color: var(--green-soft);
+}
+
+.social-network-icons span {
+  display: none;
 }
 
 .primary {
@@ -283,6 +321,8 @@ h1 {
   display: grid;
   place-items: center;
 }
+
+/* -------------- DELIVERY CARD ----------------*/
 
 .delivery-card-container {
   display: flex;
@@ -392,5 +432,38 @@ h1 {
     justify-content: center;
     width: 100%;
     margin: 1rem 0;
+  }
+  .weekend-container {
+    display: flex;
+    align-items: center;
+  }
+  .weekend-container h1 {
+    line-height: 1.8rem;
+  }
+
+  .combo-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .price-combos-style {
+    margin-top: 0.5rem;
+    min-height: 4rem;
+  }
+  .social-network-icons span {
+    display: inline;
+    font-family: "Dosis";
+    font-size: 1.3rem;
+    color: var(--green-soft);
+  }
+  .social-network-icons a {
+    text-decoration: none;
+  }
+  .beverage-list > ul {
+    position: relative;
+    left: 30%;
+  }
+  .beverage-list > section {
+    position: relative;
+    right: 30%;
   }
 }
